@@ -5,6 +5,7 @@ import Lenis from 'lenis'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import MagicBento from './components/MagicBento'
+import ScrollStack from './components/ScrollStack'
 import profileImg from './assets/veneth.jpg'
 import aboutImg from './assets/veneth-about.jpg'
 
