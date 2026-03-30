@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { FiMail, FiExternalLink, FiLinkedin, FiInstagram, FiDribbble, FiSun, FiMoon, FiMapPin, FiArrowRight } from 'react-icons/fi'
+import { FiMail, FiExternalLink, FiLinkedin, FiInstagram, FiDribbble, FiSun, FiMoon, FiMapPin } from 'react-icons/fi'
 import { useTheme } from './context/ThemeContext'
 import Lenis from 'lenis'
 import { gsap } from 'gsap'
@@ -30,9 +30,9 @@ function App() {
 
     function raf(time) {
       lenis.raf(time)
-      requestAnimationFrame(raf)
+      rafIdRef.current = requestAnimationFrame(raf)
     }
-    requestAnimationFrame(raf)
+    rafIdRef.current = requestAnimationFrame(raf)
 
     const reveals = document.querySelectorAll('.reveal')
     tiltElementsRef.current = document.querySelectorAll('[data-3d-tilt]')

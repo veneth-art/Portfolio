@@ -349,7 +349,7 @@ const MagicBento = ({
           const baseClassName = `magic-bento-card ${enableBorderGlow ? 'magic-bento-card--border-glow' : ''}`;
           return (
             <ParticleCard
-              key={index}
+              key={card.number}
               className={baseClassName}
               disableAnimations={shouldDisableAnimations}
               particleCount={particleCount}

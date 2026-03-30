@@ -1090,25 +1090,10 @@ p {
 }
 
 @keyframes hiBubblePulse {
-
   0%,
   100% {
     box-shadow: 0 10px 30px rgba(201, 251, 0, 0.4);
   }
-
-  [data-theme="light"] .hi-bubble,
-  [data-theme="light"] .about-hi-bubble {
-
-    0%,
-    100% {
-      box-shadow: 0 6px 20px rgba(201, 168, 76, 0.35);
-    }
-
-    50% {
-      box-shadow: 0 6px 25px rgba(201, 168, 76, 0.5);
-    }
-  }
-
   50% {
     box-shadow: 0 10px 50px rgba(201, 251, 0, 0.6), 0 0 20px rgba(201, 251, 0, 0.3);
   }
