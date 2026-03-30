@@ -1,0 +1,36 @@
+.scroll-stack-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.scroll-stack-inner {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5rem 40vh;
+}
+
+.scroll-stack-item {
+  position: relative;
+  width: 100%;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+@media (max-width: 1024px) {
+  .scroll-stack-inner {
+    padding: 0 2rem 30vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll-stack-inner {
+    padding: 0 1.5rem 25vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-stack-inner {
+    padding: 0 1rem 20vh;
+  }
+}

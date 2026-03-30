@@ -1,0 +1,203 @@
+{
+  "$version": "1.0",
+  "name": "Veneth Portfolio Design System",
+  "modes": {
+    "dark": {
+      "$extensions": {
+        "modeId": "dark"
+      }
+    },
+    "light": {
+      "$extensions": {
+        "modeId": "light"
+      }
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": {
+        "dark": { "value": "#111111", "$type": "color" },
+        "light": { "value": "#e6ddcf", "$type": "color" }
+      },
+      "secondary": {
+        "dark": { "value": "#0D0D0D", "$type": "color" },
+        "light": { "value": "#d9cfc2", "$type": "color" }
+      },
+      "card": {
+        "dark": { "value": "#1A1A1A", "$type": "color" },
+        "light": { "value": "#ffffff", "$type": "color" }
+      }
+    },
+    "text": {
+      "primary": {
+        "dark": { "value": "#FFFFFF", "$type": "color" },
+        "light": { "value": "#1a1a1a", "$type": "color" }
+      },
+      "secondary": {
+        "dark": { "value": "#A0A0A0", "$type": "color" },
+        "light": { "value": "#4a4a4a", "$type": "color" }
+      },
+      "muted": {
+        "dark": { "value": "#666666", "$type": "color" },
+        "light": { "value": "#8a8a8a", "$type": "color" }
+      }
+    },
+    "accent": {
+      "primary": {
+        "dark": { "value": "#C9FB00", "$type": "color" },
+        "light": { "value": "#c9a84c", "$type": "color" }
+      },
+      "hover": {
+        "dark": { "value": "#DFFC4D", "$type": "color" },
+        "light": { "value": "#d4b05e", "$type": "color" }
+      },
+      "glow": {
+        "dark": { "value": "rgba(201, 251, 0, 0.4)", "$type": "color" },
+        "light": { "value": "rgba(201, 168, 76, 0.35)", "$type": "color" }
+      },
+      "secondary": {
+        "dark": { "value": "#00ff88", "$type": "color" },
+        "light": { "value": "#8b7355", "$type": "color" }
+      }
+    },
+    "border": {
+      "dark": { "value": "rgba(255, 255, 255, 0.08)", "$type": "color" },
+      "light": { "value": "rgba(0, 0, 0, 0.08)", "$type": "color" }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "display": { "value": "'Inter Tight', sans-serif", "$type": "fontFamily" },
+      "heading": { "value": "'Inter Tight', sans-serif", "$type": "fontFamily" },
+      "body": { "value": "'Inter', sans-serif", "$type": "fontFamily" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400", "$type": "fontWeight" },
+      "medium": { "value": "500", "$type": "fontWeight" },
+      "semibold": { "value": "600", "$type": "fontWeight" },
+      "bold": { "value": "700", "$type": "fontWeight" },
+      "extrabold": { "value": "800", "$type": "fontWeight" },
+      "black": { "value": "900", "$type": "fontWeight" }
+    },
+    "fontSize": {
+      "xs": { "value": "12px", "$type": "fontSize" },
+      "sm": { "value": "14px", "$type": "fontSize" },
+      "base": { "value": "16px", "$type": "fontSize" },
+      "lg": { "value": "18px", "$type": "fontSize" },
+      "xl": { "value": "20px", "$type": "fontSize" },
+      "2xl": { "value": "24px", "$type": "fontSize" },
+      "3xl": { "value": "32px", "$type": "fontSize" },
+      "4xl": { "value": "48px", "$type": "fontSize" },
+      "5xl": { "value": "64px", "$type": "fontSize" },
+      "6xl": { "value": "96px", "$type": "fontSize" }
+    },
+    "lineHeight": {
+      "tight": { "value": "1.05", "$type": "number" },
+      "normal": { "value": "1.2", "$type": "number" },
+      "relaxed": { "value": "1.6", "$type": "number" },
+      "loose": { "value": "1.7", "$type": "number" }
+    },
+    "letterSpacing": {
+      "tight": { "value": "-0.02em", "$type": "number" },
+      "normal": { "value": "0", "$type": "number" },
+      "wide": { "value": "0.05em", "$type": "number" },
+      "wider": { "value": "0.1em", "$type": "number" }
+    }
+  },
+  "spacing": {
+    "px": { "value": "1px", "$type": "dimension" },
+    "0": { "value": "0px", "$type": "dimension" },
+    "1": { "value": "4px", "$type": "dimension" },
+    "2": { "value": "8px", "$type": "dimension" },
+    "3": { "value": "12px", "$type": "dimension" },
+    "4": { "value": "16px", "$type": "dimension" },
+    "5": { "value": "20px", "$type": "dimension" },
+    "6": { "value": "24px", "$type": "dimension" },
+    "8": { "value": "32px", "$type": "dimension" },
+    "10": { "value": "40px", "$type": "dimension" },
+    "12": { "value": "48px", "$type": "dimension" },
+    "16": { "value": "64px", "$type": "dimension" },
+    "20": { "value": "80px", "$type": "dimension" },
+    "24": { "value": "96px", "$type": "dimension" },
+    "32": { "value": "128px", "$type": "dimension" }
+  },
+  "borderRadius": {
+    "none": { "value": "0px", "$type": "borderRadius" },
+    "sm": { "value": "8px", "$type": "borderRadius" },
+    "md": { "value": "16px", "$type": "borderRadius" },
+    "lg": { "value": "32px", "$type": "borderRadius" },
+    "xl": { "value": "48px", "$type": "borderRadius" },
+    "full": { "value": "9999px", "$type": "borderRadius" }
+  },
+  "shadows": {
+    "sm": {
+      "dark": { "value": "0 4px 20px rgba(0, 0, 0, 0.08)", "$type": "shadow" },
+      "light": { "value": "0 4px 20px rgba(0, 0, 0, 0.06)", "$type": "shadow" }
+    },
+    "md": {
+      "dark": { "value": "0 10px 40px rgba(0, 0, 0, 0.15)", "$type": "shadow" },
+      "light": { "value": "0 8px 30px rgba(0, 0, 0, 0.1)", "$type": "shadow" }
+    },
+    "lg": {
+      "dark": { "value": "0 20px 60px rgba(0, 0, 0, 0.3)", "$type": "shadow" },
+      "light": { "value": "0 15px 40px rgba(0, 0, 0, 0.1)", "$type": "shadow" }
+    },
+    "xl": {
+      "dark": { "value": "0 30px 80px rgba(0, 0, 0, 0.5)", "$type": "shadow" },
+      "light": { "value": "0 20px 60px rgba(0, 0, 0, 0.15)", "$type": "shadow" }
+    },
+    "accent": {
+      "dark": { "value": "0 0 40px rgba(201, 251, 0, 0.4)", "$type": "shadow" },
+      "light": { "value": "0 0 30px rgba(201, 168, 76, 0.35)", "$type": "shadow" }
+    }
+  },
+  "effects": {
+    "blur": {
+      "sm": { "value": "8px", "$type": "blur" },
+      "md": { "value": "16px", "$type": "blur" },
+      "lg": { "value": "24px", "$type": "blur" },
+      "xl": { "value": "40px", "$type": "blur" }
+    },
+    "transition": {
+      "fast": { "value": "150ms", "$type": "duration" },
+      "base": { "value": "250ms", "$type": "duration" },
+      "normal": { "value": "400ms", "$type": "duration" },
+      "slow": { "value": "600ms", "$type": "duration" }
+    },
+    "easing": {
+      "linear": { "value": "linear", "$type": "cubicBezier" },
+      "easeIn": { "value": "cubic-bezier(0.4, 0, 1, 1)", "$type": "cubicBezier" },
+      "easeOut": { "value": "cubic-bezier(0, 0, 0.2, 1)", "$type": "cubicBezier" },
+      "easeInOut": { "value": "cubic-bezier(0.4, 0, 0.2, 1)", "$type": "cubicBezier" },
+      "bounce": { "value": "cubic-bezier(0.2, 0.8, 0.2, 1)", "$type": "cubicBezier" }
+    },
+    "opacity": {
+      "0": { "value": "0", "$type": "number" },
+      "25": { "value": "0.25", "$type": "number" },
+      "50": { "value": "0.5", "$type": "number" },
+      "75": { "value": "0.75", "$type": "number" },
+      "100": { "value": "1", "$type": "number" }
+    }
+  },
+  "layout": {
+    "container": {
+      "maxWidth": { "value": "1400px", "$type": "dimension" },
+      "padding": { "value": "40px", "$type": "dimension" }
+    },
+    "grid": {
+      "columns": { "value": "12", "$type": "number" },
+      "gap": { "value": "24px", "$type": "dimension" }
+    },
+    "zIndex": {
+      "base": { "value": "0", "$type": "number" },
+      "dropdown": { "value": "1000", "$type": "number" },
+      "sticky": { "value": "1100", "$type": "number" },
+      "fixed": { "value": "1200", "$type": "number" },
+      "modalBackdrop": { "value": "9995", "$type": "number" },
+      "modal": { "value": "9999", "$type": "number" },
+      "popover": { "value": "9998", "$type": "number" },
+      "tooltip": { "value": "9997", "$type": "number" },
+      "cursor": { "value": "99999", "$type": "number" }
+    }
+  }
+}
